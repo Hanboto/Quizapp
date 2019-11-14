@@ -63,7 +63,9 @@ public class MainFragment extends CoreFragment {
                 QuizActivity.start(
                         getContext(),
                         mSeekBar.getProgress(),
-                        mCategorySpinner.getSelectedItem().toString()
+                        mCategorySpinner.getSelectedItem().toString(),
+                        mDifficultySpinner.getSelectedItem().toString()
+
                 );
 
                 Log.d("ololo", "Start properties - amount:" + mSeekBar.getProgress()
