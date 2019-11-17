@@ -139,7 +139,7 @@
             android:textColor="@color/white"
             android:fontFamily="sans-serif-condensed-medium"
             android:textSize="17sp"
-            android:text="Start"/>
+            android:text="START"/>
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

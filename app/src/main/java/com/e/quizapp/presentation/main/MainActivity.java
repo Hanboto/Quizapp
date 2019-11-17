@@ -5,25 +5,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
 
 import com.e.quizapp.R;
-import com.e.quizapp.data.IQuizRepository;
-import com.e.quizapp.data.QuizRepository;
-import com.e.quizapp.model.Question;
 import com.e.quizapp.presentation.history.HistoryFragment;
-import com.e.quizapp.presentation.history.HistoryViewModel;
 import com.e.quizapp.presentation.settings.SettingsFragment;
-import com.e.quizapp.presentation.settings.SettingsViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity

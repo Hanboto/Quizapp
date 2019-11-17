@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.e.quizapp.R;
 import com.e.quizapp.core.CoreFragment;
@@ -25,6 +26,7 @@ public class MainFragment extends CoreFragment {
     private NiceSpinner mDifficultySpinner;
 
     private TextView mAmount;
+    private TextView mBtn_Start_Quiz;
     private View mStart;
 
     public static MainFragment newInstance() {
@@ -44,6 +46,20 @@ public class MainFragment extends CoreFragment {
         mDifficultySpinner = view.findViewById(R.id.main_difficulty_spinner);
         mAmount = view.findViewById(R.id.main_questions_amount);
         mStart = view.findViewById(R.id.main_start);
+        mBtn_Start_Quiz= view.findViewById(R.id.start_btn);
+        mBtn_Start_Quiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                QuizActivity.start(getContext(),
+                        mSeekBar.getProgress(),
+                        mCategorySpinner.getSelectedItem().toString(),
+                        mDifficultySpinner.getSelectedItem().toString());
+                Toast toast = Toast.makeText(getContext(),
+                        "Quiz Activity", Toast.LENGTH_SHORT);
+                toast.show();
+            }
+        });
+
 
         mSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
