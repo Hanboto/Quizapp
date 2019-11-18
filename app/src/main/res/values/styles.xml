@@ -43,4 +43,13 @@
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
 
+    <style name="QuizQuestionAnswers">
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:paddingBottom">11dp</item>
+        <item name="android:layout_marginEnd">51dp</item>
+        <item name="android:layout_marginStart">51dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
 </resources>

@@ -1,6 +1,5 @@
 package com.e.quizapp.presentation.history.recycler;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.e.quizapp.R;
-import com.e.quizapp.presentation.history.model.History;
+import com.e.quizapp.model.History;
 
 import java.util.ArrayList;
 

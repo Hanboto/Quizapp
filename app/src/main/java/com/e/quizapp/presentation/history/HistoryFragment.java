@@ -6,20 +6,15 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.e.quizapp.R;
 import com.e.quizapp.core.CoreFragment;
-import com.e.quizapp.presentation.history.model.History;
+import com.e.quizapp.model.History;
 import com.e.quizapp.presentation.history.recycler.HistoryAdapter;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
 
 public class HistoryFragment extends CoreFragment {
 

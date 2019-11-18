@@ -29,6 +29,7 @@
         app:layout_constraintRight_toRightOf="parent"
         android:padding="20dp"
         android:text="Share this app"
+        android:textSize="@dimen/default_text_size"
         android:background="?selectableItemBackground"
         android:textColor="@color/dark_purple"
         android:clickable="true"/>
@@ -40,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="@+id/settings_share_this_app"
         android:layout_margin="@dimen/right_left_margin"
-        android:src="@drawable/vektor_stroke"/>
+        android:src="@drawable/ic_vektor_stroke"/>
 
     <View
         android:layout_width="match_parent"
@@ -55,6 +56,7 @@
         app:layout_constraintTop_toBottomOf="@+id/settings_share_this_app"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        android:textSize="@dimen/default_text_size"
         android:padding="20dp"
         android:text="Rate us"
         android:background="?selectableItemBackground"
@@ -67,7 +69,7 @@
         app:layout_constraintTop_toTopOf="@+id/settings_rate_us_app"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="@+id/settings_rate_us_app"
-        android:src="@drawable/vektor_stroke"
+        android:src="@drawable/ic_vektor_stroke"
         android:layout_margin="@dimen/right_left_margin" />
     <View
         android:layout_width="match_parent"
@@ -82,6 +84,7 @@
         app:layout_constraintTop_toBottomOf="@+id/settings_rate_us_app"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        android:textSize="@dimen/default_text_size"
         android:padding="20dp"
         android:text="Leave feedback"
         android:background="?selectableItemBackground"
@@ -94,7 +97,7 @@
         app:layout_constraintTop_toTopOf="@+id/leaveFeedback_rate_us_app"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="@+id/leaveFeedback_rate_us_app"
-        android:src="@drawable/vektor_stroke"
+        android:src="@drawable/ic_vektor_stroke"
         android:layout_margin="@dimen/right_left_margin" />
     <View
         android:layout_width="match_parent"
@@ -111,6 +114,7 @@
         app:layout_constraintRight_toRightOf="parent"
         android:padding="20dp"
         android:text="Clear history"
+        android:textSize="@dimen/default_text_size"
         android:background="?selectableItemBackground"
         android:textColor="@color/purple"
         android:clickable="true"
@@ -123,7 +127,7 @@
         app:layout_constraintTop_toTopOf="@+id/clear_history_rate_us_app"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="@+id/clear_history_rate_us_app"
-        android:src="@drawable/vektor_stroke"
+        android:src="@drawable/ic_vektor_stroke"
         android:layout_margin="@dimen/right_left_margin" />
     <View
         android:layout_width="match_parent"
